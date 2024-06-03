@@ -1,4 +1,3 @@
-// landing_page.dart
 import 'package:flutter/material.dart';
 
 class LandingPage extends StatelessWidget {
@@ -12,7 +11,6 @@ class LandingPage extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            Image.asset('assets/images/images.png'),
             ElevatedButton(
               onPressed: () {
                 Navigator.pushNamed(context, '/product');
